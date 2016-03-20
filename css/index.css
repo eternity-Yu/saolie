@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../image/bgd.jpg);
+	background-size: cover;
+}
+.sence{
+	width: 600px;
+	height: 600px;
+	border: 15px solid rgba(0,0,0,0.5);
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	margin-left: -300px;
+}
+.box{
+	width: 28px;
+	height: 28px;
+	border: 1px solid rgba(255,255,255,0.4);
+	background: #00022d;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.boxs{
+	width: 24px;
+	height: 24px;
+	margin: 2px;
+	background: #0090ff;
+	color: #000;
+}
+.lei{
+	width: 24px;
+	height: 24px;
+	border: 1px solid white;
+	background-image: url(../image/lei.png);
+	background-size: cover;
+	margin: 2px;
+	animation: baozha 2s ease;
+}
+
+.leis{
+	width: 24px;
+	height: 24px;
+	border: 1px solid white;
+	background-image: url(../image/lei.png);
+	background-size: cover;
+	margin: 2px;
+	animation: baozha 2s ease;
+}
+@keyframes baozha{
+	0%{
+		background-image: url(../image/lei.png); 
+	}
+	30%{
+		background-image: url(../image/baozha.jpg); 
+		animation: kuoda 1s ease;
+	}
+	100%{
+		background-image: url(../image/lei.png);
+	}
+} 
+@keyframes kuoda{
+	0%,100%{
+		transform: scale(1,1);
+	}
+	50%{
+		transform: scale(1.4,1.4);
+	}
+}
+.again{
+	width: 234px;
+	height: 104px;
+	position: absolute;
+	top: 40%;
+	left: 75%; 
+	text-align: center;
+	line-height: 104px;
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+.qizi{
+	width: 20px;
+	height: 20px;
+	margin: 4px;
+	background-image: url(../image/qizi.png);
+	background-size: cover; 
+}
